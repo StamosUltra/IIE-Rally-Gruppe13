@@ -1,20 +1,20 @@
 /*    Firkantbil.java Super Happy Go Go Team 2016 - 09 - 06
 * v-0.1.0
-* Program som styrer en bil med 2 motorer. Bilen skal oppføre seg slik:
-* 1. kjør framover
-* 2. Sving høyre
-* 3. Sving høyre
-* 4. Sving høyre
+* Program som styrer en bil med 2 motorer. Bilen skal oppfÃ¸re seg slik:
+* 1. kjÃ¸r framover
+* 2. Sving hÃ¸yre
+* 3. Sving hÃ¸yre
+* 4. Sving hÃ¸yre
 * 5. Stoppe
 
-* Bilen oppfører seg på følgende måte:
-* 1. Kjører frem
-* 2. Svinger 95 grader høyre
-* 3. Kjører frem
-* 4. Svinger 95 grader høyre
-* 5. Kjører frem
-* 6. Svinger 95 grader høyre
-* 7. Kjører frem
+* Bilen oppfÃ¸rer seg pÃ¥ fÃ¸lgende mÃ¥te:
+* 1. KjÃ¸rer frem
+* 2. Svinger 95 grader hÃ¸yre
+* 3. KjÃ¸rer frem
+* 4. Svinger 95 grader hÃ¸yre
+* 5. KjÃ¸rer frem
+* 6. Svinger 95 grader hÃ¸yre
+* 7. KjÃ¸rer frem
 * 8. Stopper
 */
 
@@ -28,11 +28,11 @@ public class Firkantbil
      Motor.B.setSpeed(450);  // sett hastighet (toppfart = 900)
 	 Motor.C.setSpeed(450);
 
-     // Kjør framover
+     // KjÃ¸r framover
      System.out.println("Fram 2000 ms");
-     Motor.B.forward();  // Start motor A - kjør framover
-     Motor.C.forward();  // Start motor C - kjør framover
-     Thread.sleep(2000); // Vent i 1000 ms før vi går videre i koden
+     Motor.B.forward();  // Start motor A - kjÃ¸r framover
+     Motor.C.forward();  // Start motor C - kjÃ¸r framover
+     Thread.sleep(2000); // Vent i 2000 ms fÃ¸r vi gÃ¥r videre i koden
 
      // Sving
      LCD.clearDisplay();
@@ -41,11 +41,11 @@ public class Firkantbil
      Motor.C.stop();
      Thread.sleep(600);  // vent til rotasjon er ferdig
 
-     // Kjør framover
+     // KjÃ¸r framover
      System.out.println("Fram 2000 ms");
-     Motor.B.forward();  // Start motor A - kjør framover
-     Motor.C.forward();  // Start motor C - kjør framover
-     Thread.sleep(2000); // Vent i 1000 ms før vi går videre i koden
+     Motor.B.forward();  // Start motor A - kjÃ¸r framover
+     Motor.C.forward();  // Start motor C - kjÃ¸r framover
+     Thread.sleep(2000); // Vent i 2000 ms fÃ¸r vi gÃ¥r videre i koden
 
      // Sving
      LCD.clear();
@@ -54,11 +54,11 @@ public class Firkantbil
      Motor.C.stop();
      Thread.sleep(600);  // vent til rotasjon er ferdig
 
-     // Kjør framover
+     // KjÃ¸r framover
      System.out.println("Fram 2000 ms");
-     Motor.B.forward();  // Start motor A - kjør framover
-     Motor.C.forward();  // Start motor C - kjør framover
-     Thread.sleep(2000); // Vent i 1000 ms før vi går videre i koden
+     Motor.B.forward();  // Start motor A - kjÃ¸r framover
+     Motor.C.forward();  // Start motor C - kjÃ¸r framover
+     Thread.sleep(2000); // Vent i 2000 ms fÃ¸r vi gÃ¥r videre i koden
 
      // Sving
      LCD.clear();
@@ -67,13 +67,13 @@ public class Firkantbil
      Motor.C.stop();
      Thread.sleep(600);  // vent til rotasjon er ferdig
 
-     // Kjør framover
+     // KjÃ¸r framover
      System.out.println("Fram 2000 ms");
-     Motor.B.forward();  // Start motor A - kjør framover
-     Motor.C.forward();  // Start motor C - kjør framover
-     Thread.sleep(2000); // Vent i 1000 ms før vi går videre i koden
+     Motor.B.forward();  // Start motor A - kjÃ¸r framover
+     Motor.C.forward();  // Start motor C - kjÃ¸r framover
+     Thread.sleep(2000); // Vent i 2000 ms fÃ¸r vi gÃ¥r videre i koden
   }
 }
 
 /* Programmet svinger litt for mye.
-* Det anbefales å svinge ved å bruke kommandoen: Rotate, ikke Forward*/
+* Det anbefales Ã¥ svinge ved Ã¥ bruke kommandoen: Rotate, ikke Forward*/
